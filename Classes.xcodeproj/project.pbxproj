@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BAB25F82214DFC400924958 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB25F72214DFC400924958 /* main.swift */; };
+		9BAB25FF2214E86C00924958 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB25FE2214E86C00924958 /* Student.swift */; };
+		9BAB26012214E92C00924958 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB26002214E92C00924958 /* Person.swift */; };
+		9BAB26052214EA7C00924958 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB26042214EA7C00924958 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BAB25F42214DFC400924958 /* Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAB25F72214DFC400924958 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BAB25FE2214E86C00924958 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9BAB26002214E92C00924958 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BAB26042214EA7C00924958 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9BAB25F72214DFC400924958 /* main.swift */,
+				9BAB26002214E92C00924958 /* Person.swift */,
+				9BAB25FE2214E86C00924958 /* Student.swift */,
+				9BAB26042214EA7C00924958 /* Car.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAB26012214E92C00924958 /* Person.swift in Sources */,
+				9BAB26052214EA7C00924958 /* Car.swift in Sources */,
 				9BAB25F82214DFC400924958 /* main.swift in Sources */,
+				9BAB25FF2214E86C00924958 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
